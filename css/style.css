@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', monospace;
+}
+
+.cabecalho{
+    height: 130px;
+    width: 100%; 
+    position: fixed;
+}
+
+.cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    background-color: #2C1307;
+    color: #A6826D ;
+    height: 120px;
+}
+
+.menu{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.logo{
+    background-image: url("/imagens/Loja\ Conforto1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 90px;
+    margin: 5px;
+}
+
+.categorias{
+    padding-top: 150px;
+    background-color: #A6826D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    padding: 15px 0 30px;
+    color: #fff;
+}
+
+.categorias p{
+    padding: 20px;
+}
+
+.cate{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 70px;
+    padding-bottom: 20px;
+}
+
+.categoria{
+    height: 200px;
+    width: 400px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: block;
+    align-items: start;
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#lugares-2{
+    background-image: url("/imagens/sofa2lugares.png");
+    background-size: 75%;
+}
+#lugares-3{
+    
+    background-image: url("/imagens/sofa3lugares.jpg");
+    
+}
+#lugares-4{
+    
+    background-image: url("/imagens/sofa4lugares.jpg");
+    
+}
+#sofa-canto{
+    
+    background-image: url("/imagens/sofadeCanto.png");
+    
+}
+#sofa-cama{
+    
+    background-image: url("/imagens/sofacama.jpg");
+    
+}
+#sofa-retrat{
+   
+    background-image: url("/imagens/sofaRetratil.jpg");
+    
+}
+
+.ambient{
+    padding-top: 20px;
+    background-color: #2C1307;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ambientes{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.amb{
+    height: 360px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    align-items: start;
+}
+
+#amb-1{
+    background-image: url("/imagens/espaco1.jpg");
+    
+}
+#amb-2{
+    background-image: url("/imagens/espaco2.jpg");
+}
+#amb-3{
+    background-image: url("/imagens/espaco3.png");
+}
+#amb-4{
+    background-image: url("/imagens/espaco4.jpg");
+}
+#amb-5{
+    background-image: url("/imagens/espaco7.jfif");
+}
+#amb-6{
+    background-image: url("/imagens/espaco6.jpg");
+}
+#amb-7{
+    background-image: url("/imagens/espaco5.jpg");
+}
+#amb-8{
+    background-image: url("/imagens/espaco8.jfif");
+}
+#amb-9{
+    background-image: url("/imagens/espaco9.jpg");
+}
+
+.loja{
+    background-color: #A6826D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.sobre-loja{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-loja{
+    background-image: url("/imagens/lojafoto.jpeg");
+    width: 300px;
+    height: 400px;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.txt-loja p{
+    width: 200px;
+    text-align:left;
+}
+
+.contato{
+    background-color: #A6826D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.form-input{
+    margin: 20px 20px;
+}
+
+.contato{
+    padding: 10px;
+    background-color: #2C1307;
+}
+
+.contato h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contato div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cont{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-between;
+    color: #fff;
+}
+
+.cont li{
+    align-content:space-between;
+    text-align: center;
+}
+
+.cont .insta{
+    margin-left: -80px;
+}
+
+.cont .whatsapp{
+    margin-right: 30px;
+}
+
+.icones{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.icones li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.icones li:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.icones .email{
+    width: 50px;
+    height: 50px;
+}
+
+.icones .insta{
+    width: 60px;
+    height: 60px;
+}
+
+.icones .whatsapp{
+    width: 60px;
+    height: 60px;
+}
+
+
+
